@@ -19,7 +19,7 @@
         /* width */
 
         ::-webkit-scrollbar {
-            width: 13px;
+            width: 6px;
         }
 
         /* Track */
@@ -62,7 +62,8 @@ mdl-layout--fixed-tabs">
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
                 <!-- Title -->
-                <span class="mdl-layout-title">Google Developer Student Club - GNDU</span>
+                <span class="mdl-layout-title"><img class="gdsclogo" src="images/gdscgndulogodark.png"
+                        alt="Google Developer Student Club - GNDU"></span>
             </div>
             <!-- Tabs -->
             <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
@@ -149,11 +150,11 @@ mdl-layout--fixed-tabs">
                 </div>
                 <hr>
                 <h3>Connect with us!</h3>
-                <div class="row">                    
+                <div class="row">
                     <button class="mdl-button mdl-js-button mdl-button--icon">
                         <i class="fa fa-linkedin"></i>
                     </button>
-                    <button class="mdl-button mdl-js-button mdl-button--icon">                        
+                    <button class="mdl-button mdl-js-button mdl-button--icon">
                         <i class="fa fa-instagram"></i>
                     </button>
                     <button class="mdl-button mdl-js-button mdl-button--icon">
@@ -161,7 +162,7 @@ mdl-layout--fixed-tabs">
                     </button>
                     <button class="mdl-button mdl-js-button mdl-button--icon">
                         <i class="fa fa-facebook"></i>
-                    </button>                    
+                    </button>
                     <button class="mdl-button mdl-js-button mdl-button--icon">
                         <i class="fa fa-twitter"></i>
                     </button>
@@ -169,17 +170,38 @@ mdl-layout--fixed-tabs">
                         <i class="fa fa-github"></i>
                     </button>
                 </div>
-                
+
 
             </section>
             <section class="mdl-layout__tab-panel" id="team">
                 <div class="page-content">
-                    fdsfsdf
+
                 </div>
             </section>
             <section class="mdl-layout__tab-panel" id="contact">
-                <div class="page-content">
-                    fdsfsd
+                <div class="page-content">                
+                    <div style="margin:0 auto;">
+                        <form class="contactus" style="background-color: var(--googlegreen);padding: 2rem;border-radius: 30px;">
+                            
+                            <div class="mdl-textfield mdl-js-textfield">
+                                <input class="mdl-textfield__input" type="text" id="subject">
+                                <label class="mdl-textfield__label" for="subject">Subject</label>
+                            </div>
+
+                            <div class="mdl-textfield mdl-js-textfield">
+                                <textarea class="mdl-textfield__input" id="message"></textarea>
+                                <label class="mdl-textfield__label" for="message">Message</label>
+                            </div>
+
+
+                            <!-- Accent-colored raised button with ripple -->
+                            <button type="button" onclick="sendmail();"
+                                class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+                                style="background-color: var(--googleblue);">
+                                Send
+                            </button>
+                        </form>
+                    </div>
                 </div>
             </section>
 

@@ -15,13 +15,14 @@
 body {
     font-style: googleregular !important;
 }
-
+.mdl-layout-title{
+    font-size: 1rem;
+}
 .mdl-layout__header, .mdl-layout__tab-bar {
     background-color: var(--googleblue);
 }
 
-.mdl-layout__content {
-    background-color: #E3F2FD;
+.mdl-layout__content {    
     padding: 2rem;
 }
 .text-center{
@@ -39,4 +40,13 @@ body {
 }
 .btnicon{
     height: 2rem;
+}
+.gdsclogo{
+    width: 22rem;
+}
+.contactus{
+    width: 70%;
+}
+.mdl-textfield{
+    width: 100%;
 }
