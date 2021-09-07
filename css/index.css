@@ -1,0 +1,42 @@
+:root {
+    --googleblue: #4285F4;
+    --googlebluetwo: #42A5F5;
+    --googlered: #EA4335;
+    --googleyellow: #FBBC04;
+    --googlegreen: #34A853;
+    --googleredlight: #FFCDD2;
+}
+
+@font-face {
+    font-family: googleregular;
+    src: url(../fonts/GoogleSansDisplay-Regular-v1.27.ttf) format('truetype');
+}
+
+body {
+    font-style: googleregular !important;
+}
+
+.mdl-layout__header, .mdl-layout__tab-bar {
+    background-color: var(--googleblue);
+}
+
+.mdl-layout__content {
+    background-color: #E3F2FD;
+    padding: 2rem;
+}
+.text-center{
+    text-align: center !important;
+}
+.row{    
+    padding-bottom: 0.5rem;
+}
+.demo-list-icon {    
+    width: 100%;    
+}
+.mdl-list__item{
+    padding: 0px;
+    padding: 10px 0 10px 0;
+}
+.btnicon{
+    height: 2rem;
+}

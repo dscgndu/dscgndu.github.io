@@ -8,14 +8,184 @@
     <title>Google Developer Student Club - GNDU</title>
     <link rel="stylesheet" href="mdl/material.min.css">
     <script src="mdl/material.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        /* ------ scroll bar ------ */
+
+        /* width */
+
+        ::-webkit-scrollbar {
+            width: 13px;
+        }
+
+        /* Track */
+
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+            border-radius: 10px;
+        }
+
+        /* Handle */
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--googlered);
+            border-radius: 10px;
+        }
+
+        /* Handle on hover */
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--googlered);
+        }
+
+        .hidescroll::-webkit-scrollbar {
+            display: none;
+        }
+
+        .hidescroll {
+            -ms-overflow-style: none;
+            /* IE and Edge */
+            scrollbar-width: none;
+            /* Firefox */
+        }
+    </style>
 </head>
 
 <body>
-    <!-- Accent-colored raised button with ripple -->
-    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-        Button
-    </button>
+    <!-- Simple header with fixed tabs. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+mdl-layout--fixed-tabs">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">Google Developer Student Club - GNDU</span>
+            </div>
+            <!-- Tabs -->
+            <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+                <a href="#home" class="mdl-layout__tab is-active">Home</a>
+                <a href="#team" class="mdl-layout__tab">Team</a>
+                <a href="#contact" class="mdl-layout__tab">Contact</a>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">GDSC - GNDU</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <section class="mdl-layout__tab-panel is-active" id="home">
+                <div class="page-content">
+
+                    <h3><span style="color: var(--googlered);">Learn</span> . <span
+                            style="color: var(--googleyellow);">Build</span> . <span
+                            style="color: var(--googlegreen);">Share</span> . <span
+                            style="color: var(--googleblue);">Grow</span></h3>
+                    <h6>GDSC brings you a limitless platform to Learn, Build, Share and Grow</h6>
+                    <div class="row">
+                        <!-- Basic Chip -->
+                        <span class="mdl-chip">
+                            <span class="mdl-chip__text">#gdscgndu</span>
+                        </span>
+                        <span class="mdl-chip">
+                            <span class="mdl-chip__text">#gdsc</span>
+                        </span>
+                        <span class="mdl-chip">
+                            <span class="mdl-chip__text">#gdscindia</span>
+                        </span>
+                    </div>
+
+                    <br>
+                    <div class="row" style="display: inline-block;">
+                        <!-- Raised button with ripple -->
+                        <button
+                            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+                            style="background-color: var(--googlered);">
+                            Become a Member
+                        </button>
+                    </div>
+                    <div class="row" style="display: inline-block;">
+                        <!-- Raised button with ripple -->
+                        <button
+                            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+                            style="background-color: var(--googlegreen);">
+                            Join our Chapter
+                        </button>
+                    </div>
+
+                </div>
+                <br>
+                <hr>
+                <h3>What we do?</h3>
+                <div>
+
+                    <ul class="demo-list-icon mdl-list">
+                        <li class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                <i class="material-icons mdl-list__item-icon">check</i>
+                                Organize Workshops, Events, Competitions
+                            </span>
+                        </li>
+                        <li class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                <i class="material-icons mdl-list__item-icon">check</i>
+                                Make Real World Projects
+                            </span>
+                        </li>
+                        <li class="mdl-list__item">
+                            <span class="mdl-list__item-primary-content">
+                                <i class="material-icons mdl-list__item-icon">check</i>
+                                Guide peers to make projects
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <h3>Connect with us!</h3>
+                <div class="row">                    
+                    <button class="mdl-button mdl-js-button mdl-button--icon">
+                        <i class="fa fa-linkedin"></i>
+                    </button>
+                    <button class="mdl-button mdl-js-button mdl-button--icon">                        
+                        <i class="fa fa-instagram"></i>
+                    </button>
+                    <button class="mdl-button mdl-js-button mdl-button--icon">
+                        <i class="fa fa-youtube"></i>
+                    </button>
+                    <button class="mdl-button mdl-js-button mdl-button--icon">
+                        <i class="fa fa-facebook"></i>
+                    </button>                    
+                    <button class="mdl-button mdl-js-button mdl-button--icon">
+                        <i class="fa fa-twitter"></i>
+                    </button>
+                    <button class="mdl-button mdl-js-button mdl-button--icon">
+                        <i class="fa fa-github"></i>
+                    </button>
+                </div>
+                
+
+            </section>
+            <section class="mdl-layout__tab-panel" id="team">
+                <div class="page-content">
+                    fdsfsdf
+                </div>
+            </section>
+            <section class="mdl-layout__tab-panel" id="contact">
+                <div class="page-content">
+                    fdsfsd
+                </div>
+            </section>
+
+        </main>
+
+    </div>
 
 </body>
 
