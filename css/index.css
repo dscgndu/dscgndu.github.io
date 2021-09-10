@@ -51,3 +51,33 @@ body {
 .mdl-textfield{
     width: 100%;
 }
+.teamcard{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;    
+    width: 15rem;
+    padding-bottom: 10px;
+}
+.teampic{
+    height: 8rem;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+.teammembername{
+    font-weight: 600;
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+.positionmmember{
+        padding-top: 10px;
+}
+.colorlinkedin{
+    color: blue;    
+    font-size: 20px !important;        
+}
+.colorlinkedinanchor{
+    margin-top: 10px;
+    padding: 7px 25px 7px 25px;
+    border-radius: 10px;
+    border:1px solid var(--googleblue);
+}
