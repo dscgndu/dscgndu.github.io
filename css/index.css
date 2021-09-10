@@ -22,7 +22,7 @@ body {
     background-color: var(--googleblue);
 }
 
-.mdl-layout__content {    
+#home, #team, #contact{    
     padding: 2rem;
 }
 .text-center{
@@ -46,6 +46,7 @@ body {
 }
 .contactus{
     width: 70%;
+    margin:0 auto;
 }
 .mdl-textfield{
     width: 100%;
