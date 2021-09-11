@@ -8,7 +8,7 @@ var memberdata=[
     {"posiiton":"CP Lead", "name": "Devang Chopra", "linkedin":"https://www.linkedin.com/in/devang-chopra-a7463a12a/", "picture": "members/devang_chopra.jpg"},
     {"posiiton":"CP Co-Lead", "name": "Riya Rajput", "linkedin":"https://www.linkedin.com/in/riya-rajput-23400a200/", "picture": "members/riya_rajput.jpg"},
     {"posiiton":"Creative and Marketing Lead", "name": "Akhil Aggarwal", "linkedin":"https://www.linkedin.com/in/akhilbansalaggarwal/", "picture": "members/akhil_aggarwal.jpg"},
-    {"posiiton":"Creative and Marketing Co-Lead", "name": "Cheshta Handa", "linkedin":"https://www.linkedin.com/in/rajinderpalsingh2001/", "picture": "members/cheshta_handa.jpg"},
+    {"posiiton":"Creative and Marketing Co-Lead", "name": "Cheshta Handa", "linkedin":"https://www.linkedin.com/in/cheshta-handa-4134b419b/", "picture": "members/cheshta_handa.jpg"},
     {"posiiton":"PR and Event Management Lead", "name": "Anchal Katoch", "linkedin":"https://www.linkedin.com/in/anchal-katoch-12069b1b2/", "picture": "members/anchal_katoch.jpg"},
     {"posiiton":"PR and Event Management Co-Lead", "name": "Priyanshu Dhawan", "linkedin":"https://www.linkedin.com/in/priyanshuthe1/", "picture": "members/priyanshu_dhawan.jpg"},
 ]

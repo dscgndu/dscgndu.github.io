@@ -53,10 +53,11 @@ body {
 }
 .teamcard{
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid var(--googleblue);
     border-radius: 10px;    
     width: 15rem;
     padding-bottom: 10px;
+    box-shadow: 1px 2px 5px var(--googleblue);
 }
 .teampic{
     height: 8rem;
